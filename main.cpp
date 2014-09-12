@@ -88,8 +88,17 @@ void testPrime(){
 
 //TODO: declare and implement "defix" function here
 std::string defix(std::string str) {
+    int index=0;
+    int str_Len = str.length;
     
-    return "";
+    while(index < str.length-1) {
+        if(str[index] == '-') {
+            return str.substr(index);
+        }
+        index++;
+    }
+    
+    return str;
 }
 
 //This is a basic tester for "defix"
@@ -124,7 +133,14 @@ void testDefix(){
 //Hints: Your answer is going to be very similar to what you would do in Java
 
 //TODO: Declare and implement sumSlice here
-int sumSlice(int[] myInts, int s, int len) {
+int sumSlice(int *myInts, int s, int len) {
+    if(s>=0 && len>=0) {
+        int sum = 0;
+        for(i=s; i<=len; i++) {
+            sum += myInts[i];
+        }
+        return sum;
+    }
     return 0;
 }
 
