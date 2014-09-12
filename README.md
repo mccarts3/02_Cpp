@@ -44,7 +44,8 @@ For each of the following functions in main.cpp, tell me whether or not you thin
 Questions
 =======
 
-#### 1. In C++, the compiler compiles each .cpp file separately, without looking at the others. Explain why this leads to the need for .h files.
+#### 1. In C++, the compiler compiles each .cpp file separately, without looking at the others. Explain why this leads to the need for .h files.  
+ - .Cpp files sometimes require other files to run properly, whether it be to run a function or provide other data.  Even though you can put the calls to other .cpp files at the top of each file, .h files are an efficient way to import other .cpp files and have a compiler understand what everything is in each individual .cpp file.
 
 #### 2. Explain the individual roles of the preprocessor, the compiler, and the linker. What type of inputs do they take? What kind of outputs do they produce? What is the purpose of each?
 
