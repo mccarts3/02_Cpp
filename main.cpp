@@ -1,5 +1,25 @@
 /**
- * TODO: IMPORTANT!! Write your originality/source statement here.
+ The MIT License (MIT)
+ 
+ Copyright (c) 2014 Scott McCartney
+ 
+ Permission is hereby granted, free of charge, to any person obtaining a copy
+ of this software and associated documentation files (the "Software"), to deal
+ in the Software without restriction, including without limitation the rights
+ to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+ copies of the Software, and to permit persons to whom the Software is
+ furnished to do so, subject to the following conditions:
+ 
+ The above copyright notice and this permission notice shall be included in all
+ copies or substantial portions of the Software.
+ 
+ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+ IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+ FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+ LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+ OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+ SOFTWARE.
  */
 
 #include <iostream>
@@ -25,7 +45,7 @@
 bool prime(int n) {
     if(n<0) return false;
     
-    //Always divisible by 1 and itself, we need to check 2-(n-1) to see
+    //Always divisible by 1 and itself, so we need to check 2-(n-1) to see
     //if they are factors
     for(int i=2; i<n; i++) {
         if((n%i) == 0)
@@ -173,9 +193,10 @@ void square(int n) {
 //Hint: While loops work better than for loops for this one.
 
 //TODO: Declare and implement listPrimes here
-int* listPrimes(int n) {
-    int a=5;
-    return &a;
+int *listPrimes(int n) {
+    
+    //CODE GOES HERE
+    
 }
 
 void testListPrimes(){
