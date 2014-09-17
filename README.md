@@ -37,7 +37,7 @@ For each of the following functions in main.cpp, tell me whether or not you thin
 
 1. prime - Success!
 2. defix - Success!
-3. sumSlice - TODO
+3. sumSlice - Success!
 4. square - TODO
 5. listPrimes - TODO
 

@@ -136,7 +136,7 @@ void testDefix(){
 int sumSlice(int *myInts, int s, int len) {
     if(s>=0 && len>=0) {
         int sum = 0;
-        for(int i=s; i<=len; i++) {
+        for(int i=s; i<=s+len-1; i++) {
             sum += myInts[i];
         }
         return sum;
