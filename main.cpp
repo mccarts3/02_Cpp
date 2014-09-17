@@ -43,7 +43,7 @@
 
 //TODO: Declare and implement "prime" function here
 bool prime(int n) {
-    if(n<0) return false;
+    if(n<2) return false;
     
     //Always divisible by 1 and itself, so we need to check 2-(n-1) to see
     //if they are factors
